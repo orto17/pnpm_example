@@ -1,0 +1,30 @@
+{
+    "name": "@sample-backend/cdk-backend",
+    "version": "0.0.0",
+    "scripts": {
+        "build": "tsc",
+        "watch": "tsc -w",
+        "test": "jest",
+        "test:ci": "jest",
+        "cdk": "cdk",
+        "cdk:ls": "cdk ls -c env=dev -c region=us-east-1",
+        "cdk:synth": "pnpm run build && cdk synth -c region=us-east-1 -c env=dev",
+        "package": "echo \"No build setup\"",
+        "sam:template": "cdk synth -c region=us-east-1 -c env=dev dev-sample-be-appstack --no-staging > template.yml",
+        "sam": "export SAM_CLI_TELEMETRY=0; sam local start-api --port 4000 --host 0.0.0.0 --skip-pull-image --debug"
+    },
+    "devDependencies": {
+        "@types/jest": "^30.0.0",
+        "@types/lodash": "^4.17.20",
+        "aws-cdk": "^2.1027.0",
+        "jest": "^30.1.1",
+        "ts-jest": "^29.4.1",
+        "ts-node": "^10.9.2",
+        "typescript": "^5.9.2"
+    },
+    "dependencies": {
+        "aws-cdk-lib": "^2.212.0",
+        "constructs": "^10.4.2",
+        "source-map-support": "^0.5.21"
+    }
+}
