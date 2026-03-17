@@ -1,0 +1,12 @@
+{
+    "version": "independent",
+    "npmClient": "pnpm",
+    "command": {
+        "publish": {
+            "message": "chore(release): publish %s",
+            "conventionalCommits": true,
+            "allowBranch": "main",
+            "ignoreChanges": ["*.txt", "*.md", "package-lock.json"]
+        }
+    }
+}

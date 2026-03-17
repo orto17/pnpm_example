@@ -1,0 +1,10 @@
+packages:
+  - "cdk/**"
+  - "lambdas/**"
+
+onlyBuiltDependencies:
+  - esbuild
+  - nx
+  - unrs-resolver
+
+minimumReleaseAge: 2880

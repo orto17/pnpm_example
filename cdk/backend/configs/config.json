@@ -1,0 +1,9 @@
+{
+    "appName": "sample-be",
+    "repository": "sample-backend",
+    "branch": "main",
+    "tags": {
+        "monitored": true,
+        "owner": "TOCHANGE"
+    }
+}

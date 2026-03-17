@@ -1,0 +1,9 @@
+{
+    "env": "dev",
+    "appAccount": "111111111",
+    "sharedAccount": "2222222222",
+    "region": "us-east-1",
+    "securityGroups": {
+        "management": "sg-1234zxcv"
+    }
+}
