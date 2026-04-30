@@ -6,6 +6,6 @@
   "description": "Demo pnpm project with fixable dependency vulnerabilities (for testing scanners/updaters).",
   "dependencies": {
     "lodash": "4.17.19",
-    "axios": "0.21.1"
+    "axios": "1.7.8"
   }
 }
