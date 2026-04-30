@@ -1,0 +1,11 @@
+{
+  "name": "pnpm-vulnerable-demo",
+  "version": "1.0.0",
+  "private": true,
+  "packageManager": "pnpm@9.15.9",
+  "description": "Demo pnpm project with fixable dependency vulnerabilities (for testing scanners/updaters).",
+  "dependencies": {
+    "lodash": "4.17.19",
+    "axios": "0.21.1"
+  }
+}
